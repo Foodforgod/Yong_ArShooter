@@ -42,49 +42,9 @@ A fully functional, professional **Web-Based AR Shooter Game** built from scratc
 
 ## 📦 Project Directory Structure
 
-```text
-AR-Shooter/
-│
-├── index.php
-├── game.php
-├── models.php
-├── compile-target.php
-├── upload-target.php
-├── save-target.php
-├── save-site.php
-│
-├── api/
-│   ├── models.php
-│   ├── models_lib.php
-│   └── site_lib.php
-│
-├── assets/
-│   ├── css/
-│   │   └── game.css
-│   │
-│   ├── js/
-│   │   ├── main.js
-│   │   ├── game.js
-│   │   ├── enemy.js
-│   │   ├── weapon.js
-│   │   ├── effects.js
-│   │   └── audio.js
-│   │
-│   ├── models/
-│   │   ├── enemy GLB files
-│   │   ├── weapon GLB files
-│   │   └── uploaded GLB files
-│   │
-│   ├── targets/
-│   │   ├── picture.jpg
-│   │   └── targets.mind
-│   │
-│   └── config/
-│       ├── models.json
-│       └── site.json
-│
-└── README.md
 🛠️ Step 1: Local Installation & XAMPP Setup
+<img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/7c362ff4-09cb-4e14-b3c6-a18022124d0b" />
+
 Download & Place Files: Copy the entire AR-Shooter/ folder into your XAMPP installation directory:
 
 Plaintext
@@ -96,6 +56,8 @@ Open the Homepage: Launch your web browser and navigate to:
 Plaintext
 http://localhost/AR-Shooter/index.php
 🎯 Step 2: Target Upload & In-Browser Compilation
+<img width="1917" height="1142" alt="image" src="https://github.com/user-attachments/assets/eadeabd3-59e4-4fa8-8649-0a59437c4094" />
+
 MindAR requires a compiled target file (targets.mind) to recognize your tracking image.
 
 On the home page, navigate to the Target Section.
@@ -107,6 +69,8 @@ Click Compile Target. The browser will run the MindAR image compiler client-side
 Once completed, the binary target data is automatically saved to assets/targets/targets.mind.
 
 🦖 Step 3: Model Management & GLB Uploads
+<img width="1917" height="1198" alt="image" src="https://github.com/user-attachments/assets/76dbb175-59e6-41c5-b4e2-380729a7347f" />
+
 Navigate to the Models page (models.php) from the top navigation bar.
 
 Choose between Random enemy selection or pick a specific .glb enemy model.
@@ -118,6 +82,8 @@ You can also upload new .glb models (up to 40 MB). The system validates the bina
 Save your changes; configurations are instantly written to assets/config/models.json.
 
 📱 Step 4: Playing the Game & Mobile Access
+<img width="1916" height="1130" alt="image" src="https://github.com/user-attachments/assets/a7c155da-aef1-42b0-81d2-22ebf8e4dee0" />
+
 Accessing via Smartphone:
 
 On the home page, use the generated QR Code which points dynamically to your game URL (game.php). Ensure your phone is connected to the same Wi-Fi network as your XAMPP server.
